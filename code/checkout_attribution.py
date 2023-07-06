@@ -20,7 +20,11 @@ class StreamJobConfig:
     checkpoint_interval: int = 10
     checkpoint_pause: int = 5
     checkpoint_timeout: int = 5
-    parallelism: int = 2
+    parallelism: int= 2
+
+
+
+
 
 
 @dataclass(frozen=True)
