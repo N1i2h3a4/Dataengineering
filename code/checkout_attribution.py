@@ -35,6 +35,9 @@ class KafkaConfig:
     consumer_group_id: str = 'flink-consumer-group-1'
 
 
+
+
+
 @dataclass(frozen=True)
 class ClickTopicConfig(KafkaConfig):
     topic: str = 'clicks'
